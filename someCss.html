@@ -3,32 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Jae's Original Work</title>
-    <style>
-        table, th, td {
-            border:1px solid black;
-            border-collapse: collapse;
-        }
-        th {
-            text-align: center;
-        }
-        div.counter {
-            position: relative;
-            display: inline-block;
-        }
-        div.counter span {
-            position: absolute;
-            text-align: center;
-            height: 100%;
-            width: 100%;
-        }
-        div.counter span:before {
-            display: inline-block;
-            vertical-align: middle;
-            height: 100%;
-            content: '';
-        }
-        p.dotted {border-style: dotted;}
-    </style>
+    <link rel="stylesheet" type="text/css" href="anExternal.css">
 </head>
 <body>
     <h1>Level 1: Newbie</h1>
@@ -36,12 +11,13 @@
         <li>
             Two paragraphs that each have a different font.<br>
             <p style="background-color: aquamarine; width: 500px; height: 200px; font-family: 'Times New Roman',serif; font-size: 18px;">Some paragraph</p>
-            <p style="background-color: cadetblue; width: 500px; height: 200px; font-family: Arial,serif; font-size: 18px;">Another paragraph</p>
+            <p style="background-color: cadetblue; width: 500px; height: 200px; font-family: Arial,serif; font-size: 18px;">Another paragraph</p><br><br><br>
         </li>
         <li>
             Two pictures that were originally different sizes, resized to 50px by 50px.<br>
             <a href="https://www.washington.edu/"><img src="https://images.seattletimes.com/wp-content/uploads/2018/03/dubs1.jpg?d=780x495" title="UW husky" style="width:50px;height:50px;margin:5px" alt=""></a>
             <a href="https://leetcode.com/"><img src="https://c.ndtvimg.com/2020-08/h5mk7js_cat-generic_625x300_28_August_20.jpg?im=Resize=(1230,900)" title="UW husky" style="width:50px;height:50px;margin:5px" alt=""></a>
+            <br><br><br>
         </li>
         <li>
             One more unique CSS command that was not discussed in the workshop<br>
@@ -128,6 +104,7 @@
                     <td></td>
                 </tr>
             </table>
+            <br><br><br>
         </li>
     </ol>
     <h1>Level 2: Apprentice</h1>
@@ -137,6 +114,7 @@
             <div class="counter">
                 <span>HELLO!</span>
                 <img src="cat.jpg" style="width:286px;height: 176px;margin:20px" alt="">
+                <br><br>
             </div>
             <br>
         </li>
@@ -147,6 +125,24 @@
         <li>
             Text with a border that uses dotted lines<br>
             <p class="dotted">A dotted border.</p>
+            <br><br><br>
+        </li>
+    </ol>
+    <h1>Level 3: Master</h1>
+    <ol>
+        <li>
+            An external style sheet.<br>
+            Added to the repo.<br><br><br>
+        </li>
+        <li>
+            A floated element<br>
+            <p><img src="cat.jpg" alt="cute"> The image is floated on left </p>
+            <br><br><br><br><br><br><br><br>
+        </li>
+        <li>
+            An element with rounded border corners<br>
+            <p id="rcorners2">rounded border corners</p>
+
         </li>
     </ol>
 </body>
