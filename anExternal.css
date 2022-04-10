@@ -1,0 +1,24 @@
+table, th, td {
+            border:1px solid black;
+            border-collapse: collapse;
+}
+th {
+	text-align: center;
+}
+div.counter {
+	position: relative;
+	display: inline-block;
+}
+div.counter span {
+	position: absolute;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+div.counter span:before {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	content: '';
+}
+p.dotted {border-style: dotted;}
