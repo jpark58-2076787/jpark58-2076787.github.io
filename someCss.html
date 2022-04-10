@@ -11,6 +11,23 @@
         th {
             text-align: center;
         }
+        div.counter {
+            position: relative;
+            display: inline-block;
+        }
+        div.counter span {
+            position: absolute;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+        }
+        div.counter span:before {
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+            content: '';
+        }
+        p.dotted {border-style: dotted;}
     </style>
 </head>
 <body>
@@ -29,7 +46,7 @@
         <li>
             One more unique CSS command that was not discussed in the workshop<br>
             <h2>Jae's Schedule - Spring 2022</h2>
-            <table style="width:50%">
+            <table style="width:70%">
                 <tr>
                     <th style="width:10%">Time</th>
                     <th style="width:10%">Monday</th>
@@ -111,6 +128,25 @@
                     <td></td>
                 </tr>
             </table>
+        </li>
+    </ol>
+    <h1>Level 2: Apprentice</h1>
+    <ol>
+        <li>
+            Text that is centered on a photo.<br>
+            <div class="counter">
+                <span>HELLO!</span>
+                <img src="cat.jpg" style="width:286px;height: 176px;margin:20px" alt="">
+            </div>
+            <br>
+        </li>
+        <li>
+            A photo with 20 pixel margins on each side.<br>
+            The picture above has 20 px margins on each side.<br><br><br>
+        </li>
+        <li>
+            Text with a border that uses dotted lines<br>
+            <p class="dotted">A dotted border.</p>
         </li>
     </ol>
 </body>
