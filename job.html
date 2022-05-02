@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Apply</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+  <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="page" class="container">
+  <div id="header">
+    <div id="logo">
+      <img src="images/profile_cat.jpg" alt="" height="32px" width="43px" class="image-centered"/>
+      <h1><a href="https://www.w3schools.com/html/">HTML for free</a></h1>
+    </div>
+    <div id="menu">
+      <ul>
+        <li ><a href="myFunSite.html" accesskey="1" title="">Home</a></li>
+        <li><a href="map.html" accesskey="2" title="">Maps and Directions</a></li>
+        <li><a href="about.html" accesskey="3" title="">About Us</a></li>
+        <li class="current_page_item"><a href="#" accesskey="4" title="">Apply for a position</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="main">
+    <fieldset>
+      <legend>Account Registration</legend>
+      <div class="field">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+      </div><br>
+      <div class="field">
+        <label>Password:</label>
+        <input type="password" name="password">
+      </div><br>
+      <div class="field">
+        <label>Repeat password:</label>
+        <input type="password" name="password_r">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Personal Information</legend>
+      <div class="field">
+        <label>Full Name:</label>
+        <input type="text" name="name">
+      </div><br>
+      <div class="field">
+        <label>Current GPA (between 0.00 to 4.00):</label>
+        <input type="number" step="0.01" name="GPA" min="0.0" max="4.0">
+      </div><br>
+      <div class="field">
+        <label>Expected Graduation Date:</label>
+        <input type="date" name="graduation">
+      </div><br>
+      <div class="field">
+        <label>Class Standing:</label>
+        <select name="standing">
+          <option value="" selected="true">Choose one</option>
+          <option value="freshman">Freshman</option>
+          <option value="sophomore">Sophomore</option>
+          <option value="junior">Junior</option>
+          <option value="senior">Senior</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Very Personal Information</legend>
+      <div class="field">
+        <label>Social Security Number:</label>
+        <input type="tel" name="SSN" placeholder="123-45-6789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" required>
+      </div><br>
+      <div class="field">
+        <label>Do you have a boyfriend/girlfriend?</label>
+        <input type="radio" name="bfgf" value="yes">Yes
+        <input type="radio" name="bfgf" value="no">No
+      </div><br>
+      <div class="field">
+        <label>What type of animal do you like? (check all that apply)</label>
+        <ul>
+          <li><input type="checkbox" name="animal" value="cat">Cat</li>
+          <li><input type="checkbox" name="animal" value="dog">Dog</li>
+          <li><input type="checkbox" name="animal" value="bird">Bird</li>
+          <li><input type="checkbox" name="animal" value="other">Other</li>
+        </ul>
+      </div>
+      <div class="field">
+        <label>Click one that you like:</label><br>
+        <input type="button" onclick="alert('Meow!')" value="Cat">
+        <input type="button" onclick="alert('Bark!')" value="Dog">
+        <input type="button" onclick="alert('Tweet!')" value="Bird">
+        <input type="button" onclick="alert('Hello World!')" value="Other">
+      </div><br>
+      <div class="field">
+        <label>Select your favorite color:</label>
+        <input type="color" name="favcolor" value="#8E41D5">
+      </div><br>
+      <div class="field">
+        <label>Upload your favorite picture:</label>
+        <input type="file" name="favpic"><br><br>
+      </div>
+      <div class="field">
+        <label>How much do you want this job (between 0 and 100) :</label>
+        <input type="range" name="howmuch" min="0" max="100">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Personal Statement</legend>
+      <div class="field">
+        <label>Why do you want this position?</label><br>
+        <textarea name="why" rows="6" cols="60"></textarea>
+      </div>
+      <div class="field">
+        <label>List any extracurricular:</label><br>
+        <textarea name="extra" rows="6" cols="60"></textarea>
+      </div>
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit form"><br><br><br>
+    <div id="copyright">
+      <span>&copy; University of Washington. All rights reserved.</span>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
