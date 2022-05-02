@@ -490,7 +490,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #page
 {
-	background: #2a2a2a;
+	background: #8E41D5;
 }
 
 /*********************************************************************************/
@@ -503,7 +503,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	float: right;
 	width: 800px;
 	padding: 3em 50px 5em 50px;
-	background: #f0cbb5;
+	background: #ffffff;
 	border-top: 6px solid #444444;
 	text-align: center;
 }
